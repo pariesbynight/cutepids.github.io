@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Quiz game</title>
+</head>
+<body>
+    <div id="container">
+        <div id="quiz-title"><h2 id="q_text">Bạn đã sẵn sàng giải trí chưa?</h2></div>
+        <div id="quiz-body">
+            <ul>
+                <li><input type="radio" name="answer" id="a" class="answer"><label for="a" id="a_text">Rồi</label></li>
+                <li><input type="radio" name="answer" id="b" class="answer"><label for="b" id="b_text">Giống đáp án a</label></li>
+                <li><input type="radio" name="answer" id="c" class="answer"><label for="c" id="c_text">Cả a và b đều đúng</label></li>
+                <li><input type="radio" name="answer" id="d" class="answer"><label for="d" id="d_text">Tất cả các ý trên</label></li>
+            </ul>
+        </div>
+        <div id="timer"></div>
+        <button id="submit">Tiếp tục</button>
+    </div>
+</body>
+</html>
